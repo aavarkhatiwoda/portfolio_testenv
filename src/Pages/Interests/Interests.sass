@@ -1,0 +1,74 @@
+@import '../../Components/Fonts'
+@import '../../Components/Colors'
+@import '../../Components/Constants'
+
+.interests_toplevel
+    //border: 3px solid green
+    width: 100vw
+
+.interests
+    @media screen and (min-width: 1367px) and (max-width: 1920px)
+        padding: 100px calc(50vw - 583px)
+    @media screen and (max-width: 1366px)
+        padding: 100px 100px
+    @media screen and (max-width: 1068px)
+        padding: 0 75px 100px 75px
+    @media screen and (max-width: 768px)
+        padding: 0 50px 100px 50px
+    @media screen and (max-width: 400px)
+        padding: 0 30px 100px 30px
+    display: grid
+    @media screen and (min-width: 1069px)
+        grid-template-columns: repeat(2, 1fr)
+
+.interests
+    display: grid
+    @media screen and (min-width: 1069px)
+        grid-template-columns: repeat(2, 1fr)
+
+.interests_items_skills_s,
+.interests_items_socials_s
+    color: rgb(200,150,150)
+    transition: $t
+    &:hover
+        color: $fc1
+        background: rgb(210,160,160)
+    @media screen and (max-width: 1920px)
+        background: rgb(100,50,50)
+        border-radius: 16px
+        padding: 0px 10px
+        margin-right: 5px
+        margin-bottom: 5px
+    @media screen and (max-width: 1680px)
+    @media screen and (max-width: 1366px)
+    @media screen and (max-width: 1068px)
+    @media screen and (max-width: 768px)
+    @media screen and (max-width: 400px)
+
+
+
+.newline
+    @media screen and (min-width: 1681px) and (max-width: 1920px)
+        padding-top: 25px
+    @media screen and (min-width: 1367px) and (max-width: 1680px)
+        padding-top: 25px
+    @media screen and (min-width: 1069px) and (max-width: 1366px)
+        padding-top: 25px
+    @media screen and (max-width: 1068px)
+        padding-top: 25px
+    @media screen and (max-width: 768px)
+    @media screen and (max-width: 400px)
+
+.newline_small
+    @media screen and (min-width: 1681px) and (max-width: 1920px)
+        padding-top: 12px
+    @media screen and (min-width: 1367px) and (max-width: 1680px)
+        padding-top: 12px
+    @media screen and (min-width: 1069px) and (max-width: 1366px)
+        padding-top: 12px
+    @media screen and (max-width: 1068px)
+        padding-top: 12px
+    @media screen and (max-width: 768px)
+        padding-top: 12px
+    @media screen and (max-width: 400px)
+        padding-top: 12px

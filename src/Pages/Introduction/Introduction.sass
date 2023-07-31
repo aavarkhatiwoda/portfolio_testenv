@@ -1,0 +1,66 @@
+@import '../../Components/Fonts'
+@import '../../Components/Colors.sass'
+@import '../../Components/Constants'
+
+.introduction_toplevel
+    //border: 3px solid green
+    width: 100vw
+    @media screen and (min-width: 1069px)
+        position: fixed
+
+.introduction
+    @media screen and (min-width: 1367px) and (max-width: 1920px)
+        padding: 100px calc(50vw - 583px)
+    @media screen and (max-width: 1366px)
+        padding: 100px 100px
+    @media screen and (max-width: 1068px)
+        padding: 100px 75px
+    @media screen and (max-width: 768px)
+        padding: 100px 50px
+    @media screen and (max-width: 400px)
+        padding: 100px 30px
+    display: grid
+    @media screen and (min-width: 1069px)
+        grid-template-columns: repeat(2, 1fr)
+
+.introduction_grid1
+    //border: 1px solid pink
+.introduction_grid2
+    //border: 1px solid pink
+
+
+@media screen and (min-width: 1367px) and (max-width: 1920px)
+@media screen and (max-width: 1366px)
+@media screen and (max-width: 1068px)
+    .introduction_grid1
+        text-align: center
+    .introduction_grid1_links_toplevel
+        display: none
+@media screen and (max-width: 768px)
+@media screen and (max-width: 400px)
+
+.introduction_grid1_links
+    transition: $t
+    &:hover
+        color: $fc1
+
+.newline
+    @media screen and (min-width: 1681px) and (max-width: 1920px)
+        padding-top: 25px
+    @media screen and (min-width: 1367px) and (max-width: 1680px)
+        padding-top: 25px
+    @media screen and (min-width: 1069px) and (max-width: 1366px)
+        padding-top: 25px
+    @media screen and (max-width: 1068px)
+        padding-top: 25px
+    @media screen and (max-width: 768px)
+    @media screen and (max-width: 400px)
+
+.newline_small
+    @media screen and (min-width: 1681px) and (max-width: 1920px)
+        padding-top: 12px
+    @media screen and (min-width: 1367px) and (max-width: 1680px)
+    @media screen and (min-width: 1069px) and (max-width: 1366px)
+    @media screen and (max-width: 1068px)
+    @media screen and (max-width: 768px)
+    @media screen and (max-width: 400px)

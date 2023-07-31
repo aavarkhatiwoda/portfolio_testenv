@@ -1,0 +1,99 @@
+@import './Components/Breakpoints'
+@import './Components/Constants'
+@import './Components/Colors'
+@import './Components/Fonts'
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap')
+
+body
+  margin: 0
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+
+
+ul
+  list-style: none
+  padding: 0
+
+li
+  list-style: none
+  padding: 0
+  margin: 0
+
+a
+  text-decoration: none
+  display: inline-block
+  padding: 0
+  margin: 0
+
+
+
+.fs1,
+.fs2,
+.fs3,
+.fs4
+  color: $fc2
+
+.fc1
+  color: $fc1
+.fc2
+  color: $fc2
+.fc3
+  color: $fc3
+
+@media screen and (max-width: $ss6)
+  .fs1
+    font-size: $ss6-fs1
+  .fs2
+    font-size: $ss6-fs2
+  .fs3
+    font-size: $ss6-fs3
+@media screen and (max-width: $ss5)
+  .fs1
+    font-size: $ss5-fs1
+  .fs2
+    font-size: $ss5-fs2
+  .fs3
+    font-size: $ss5-fs3
+@media screen and (max-width: $ss4)
+  .fs1
+    font-size: $ss4-fs1
+  .fs2
+    font-size: $ss4-fs2
+  .fs3
+    font-size: $ss4-fs3
+@media screen and (max-width: $ss3)
+  .fs1
+    font-size: $ss3-fs1
+  .fs2
+    font-size: $ss3-fs2
+  .fs3
+    font-size: $ss3-fs3
+@media screen and (max-width: $ss2)
+  .fs1
+    font-size: $ss2-fs1
+  .fs2
+    font-size: $ss2-fs2
+  .fs3
+    font-size: $ss2-fs3
+@media screen and (max-width: $ss1)
+  .fs1
+    font-size: $ss1-fs1
+  .fs2
+    font-size: $ss1-fs2
+  .fs3
+    font-size: $ss1-fs3
+
+
+@media screen and (min-width: 1369px) and (max-width: $ss6)
+  .fs1,
+  .fs2
+    line-height: $lh2
+@media screen and (max-width: $ss3)
+  .fs1,
+  .fs2
+    line-height: $lh1
