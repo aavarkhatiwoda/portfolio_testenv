@@ -17,7 +17,6 @@ export default function App() {
         <Teaching />
         <Footer />
 
-
     </div>
   );
 }
