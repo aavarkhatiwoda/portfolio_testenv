@@ -1,3 +1,4 @@
+import { Link, animateScroll as scroll } from "react-scroll";
 import './Footer.sass'
 
 export default function Footer() {
@@ -6,12 +7,11 @@ export default function Footer() {
   
         <div className='footer'>
   
-          <a className='footer_name fs3 fc3 link' href={'#'}><b>Aavar Khatiwoda</b></a>
+          <Link activeClass="active" to={'interests_toplevel'} spy={true} smooth={true} duration={500} className='fs3 fc3 link'><b>Aavar Khatiwoda</b></Link>
           <div className='footer_text fs1'>Let's do great things together</div>
           <div className='footer_text footer_text_bottom fs1'>Made with ❤️ with React</div>
   
         </div>
-  
   
       </div>
     )

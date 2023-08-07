@@ -29,6 +29,7 @@ a
 .link
   transition: $t
   &:hover
+    cursor: pointer
     color: $fc1
 
 .fs1,
@@ -46,6 +47,20 @@ a
 .fc4
   color: $fc4
 
+@media screen and (min-width: $ss8min)
+  .fs1
+    font-size: $ss8-fs1
+  .fs2
+    font-size: $ss8-fs2
+  .fs3
+    font-size: $ss8-fs3
+@media screen and (max-width: $ss7)
+  .fs1
+    font-size: $ss7-fs1
+  .fs2
+    font-size: $ss7-fs2
+  .fs3
+    font-size: $ss7-fs3
 @media screen and (max-width: $ss6)
   .fs1
     font-size: $ss6-fs1
@@ -90,6 +105,14 @@ a
     font-size: $ss1-fs3
 
 
+@media screen and (min-width: $ss8min)
+  .fs1,
+  .fs2
+    line-height: $lh4
+@media screen and (min-width: $ss7min) and (max-width: $ss7)
+  .fs1,
+  .fs2
+    line-height: $lh3
 @media screen and (min-width: $ss5min) and (max-width: $ss6)
   .fs1,
   .fs2
@@ -101,22 +124,28 @@ a
 
 
 .newline
-    @media screen and (min-width: 1681px) and (max-width: 1920px)
-        padding-top: 25px
-    @media screen and (min-width: 1367px) and (max-width: 1680px)
-        padding-top: 25px
-    @media screen and (min-width: 1069px) and (max-width: 1366px)
-        padding-top: 25px
-    @media screen and (max-width: 1068px)
-        padding-top: 25px
-    @media screen and (max-width: 768px)
-    @media screen and (max-width: 400px)
+  @media screen and (min-width: $ss7min)
+    padding-top: 50px
+  @media screen and (min-width: 1681px) and (max-width: 1920px)
+    padding-top: 25px
+  @media screen and (min-width: 1367px) and (max-width: 1680px)
+    padding-top: 25px
+  @media screen and (min-width: 1069px) and (max-width: 1366px)
+    padding-top: 25px
+  @media screen and (max-width: 1068px)
+    padding-top: 25px
+  @media screen and (max-width: 768px)
+  @media screen and (max-width: 400px)
 
 .newline_small
-    @media screen and (min-width: 1681px) and (max-width: 1920px)
-        padding-top: 12px
-    @media screen and (min-width: 1367px) and (max-width: 1680px)
-    @media screen and (min-width: 1069px) and (max-width: 1366px)
-    @media screen and (max-width: 1068px)
-    @media screen and (max-width: 768px)
-    @media screen and (max-width: 400px)
+  @media screen and (min-width: $ss7min)
+    padding-top: 25px
+  @media screen and (max-width: $ss6)
+    padding-top: 12px
+  //@media screen and (min-width: 1681px) and (max-width: 1920px)
+  //  padding-top: 12px
+  //@media screen and (min-width: 1367px) and (max-width: 1680px)
+  //@media screen and (min-width: 1069px) and (max-width: 1366px)
+  //@media screen and (max-width: 1068px)
+  //@media screen and (max-width: 768px)
+  //@media screen and (max-width: 400px)
