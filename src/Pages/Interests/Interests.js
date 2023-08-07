@@ -11,8 +11,8 @@ export default function Interests() {
             <div className='interests_grid1' />
 
             <div className='interests_grid2'>
-              <div className='interests_grid2_text fs2 fc3'>
-                Nice to meet you! I'm a university student at <b className='fc2'>Virginia Tech</b> pursuing
+              <div className='interests_grid2_text fs2 fc2'>
+                Nice to meet you! I'm a university student at <a href={'https://cs.vt.edu'} target='_blank' rel='noopener noreferrer' className='link fc2 fc3'><b>Virginia Tech</b></a> pursuing
                 a bachelor's degree in computer science and a minor in mathematics. I am constantly looking for
                 new ways to improve my skills as a developer.
                 <div className='newline' />
@@ -21,7 +21,7 @@ export default function Interests() {
                 I love being able to use my skills to achieve real-world
                 results, either by myself or with a team.
                 <div className='newline' />
-                I was a Software Engineer Intern at <b className='fc2'>Northrop Grumman</b> during Summer 2023.
+                I was a Software Engineer Intern at <a href={'https://www.northropgrumman.com'} target='_blank' rel='noopener noreferrer' className='link fc2 fc3'><b>Northrop Grumman</b></a> during Summer 2023.
                 <div className='newline' />
                 I'm passionate about teaching, especially in being able to explain
                 difficult concepts as simply as possible in layman's terms.

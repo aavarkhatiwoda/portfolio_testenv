@@ -11,7 +11,7 @@ export default function Introduction() {
 
                     <div className='introduction_grid1_text fs3' style={{fontWeight:'bold'}}>Aavar Khatiwoda</div>
                     <div className='introduction_grid1_text fs2'>Computer Science student</div>
-                    <div className='introduction_grid1_text fs1 fc3'>and machine learning enthusiast</div>
+                    <div className='introduction_grid1_text fs1 fc2'>and machine learning enthusiast</div>
                     <ShowMenuLinks />
 
                     {/*
