@@ -25,7 +25,7 @@ export const ProjectsCarousel = () => {
             ],
         },
         {
-            name:'Bomb Lab',
+            name:'Binary Bomb Lab',
             technologies:['C','GDB','Assembly'],
             description:'School Assignment [CS 2505], score of 100/100',
             link:'https://cs.vt.edu',

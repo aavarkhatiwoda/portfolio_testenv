@@ -1,6 +1,6 @@
 import './Interests.sass'
 import '../../Components/Skills.sass'
-import Resume from '../../Components/Images/aavar_swe_resume_aug2023.pdf';
+import Resume from '../../Components/Images/aavar_swe_resume.pdf';
 
 export default function Interests() {
     return (
@@ -49,7 +49,7 @@ export default function Interests() {
 function ShowSkills() {
     //const s = ['Python', 'Java', 'C',  'C++', 'JavaScript', 'Assembly', 'React', 'JSX',
     //'Sass', 'HTML', 'CSS', 'Terminal', 'Linux', 'macOS', 'Virtual Servers'];
-    const s = ['Python','JavaScript','Java','C','Assembly','ReactJS','bash','gdb'
+    const s = ['Python','JavaScript','Java','C','Assembly','ReactJS','Bash','GDB'
     ,'JSX','Sass','Jenkins','OpenSearch [Suite]','Groovy / Jenkinsfile scripting',
     'Docker','Terminal','Linux']
     return (
