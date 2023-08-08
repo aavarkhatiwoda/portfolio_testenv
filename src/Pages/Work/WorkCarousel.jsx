@@ -18,6 +18,7 @@ export const WorkCarousel = () => {
                 '• Optimized collection scripts to retrieve data more efficiently by +30% rate increases of previous iterations.',
                 '• Designed Jenkinsfile sequence diagram to document anticipated flow of data collection and transfer to OpenSearch, creating detailed documentation of script tasks and API calls.',
                 '• Utilized Groovy / Jenkinsfile scripts within Docker to automate data collection and transfer to OpenSearch.',
+                '• Aided team in expanding data visualization capabilities through filters with OpenSearch Dashboards.',
                 '• Spearheaded planning of weekly tasks of team of 4 through serving as team’s scrum master.'
             ],
         },

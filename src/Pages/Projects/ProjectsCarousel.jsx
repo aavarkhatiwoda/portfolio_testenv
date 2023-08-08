@@ -25,16 +25,6 @@ export const ProjectsCarousel = () => {
             ],
         },
         {
-            name:'Very Articulated Recreational Service [V.A.R.S.]',
-            technologies:['Python','Google Speech Recognition','BeautifulSoup4'],
-            description:'In Progress',
-            link:'https://github.com/aavarkhatiwoda/vars',
-            content:[
-                '• Utilized Google Speech Recognition Python library to develop J.A.R.V.I.S.-like\
-                voice assistant to return desired information or go to URLs through web scraping capabilities.'
-            ]
-        },
-        {
             name:'Bomb Lab',
             technologies:['C','GDB','Assembly'],
             description:'School Assignment [CS 2505], score of 100/100',
@@ -49,6 +39,16 @@ export const ProjectsCarousel = () => {
                 received a perfect score.',
             ]
 
+        },
+        {
+            name:'Very Articulated Recreational Service [V.A.R.S.]',
+            technologies:['Python','Google Speech Recognition','BeautifulSoup4'],
+            description:'In Progress',
+            link:'https://github.com/aavarkhatiwoda/vars',
+            content:[
+                '• Utilized Google Speech Recognition Python library to develop J.A.R.V.I.S.-like\
+                voice assistant to return desired information or go to URLs through web scraping capabilities.'
+            ]
         },
         {
             name:'Apple Music Terminal Music Finder',
