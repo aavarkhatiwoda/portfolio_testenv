@@ -35,6 +35,22 @@ export const ProjectsCarousel = () => {
             ]
         },
         {
+            name:'Bomb Lab',
+            technologies:['C','GDB','Assembly'],
+            description:'School Assignment [CS 2505], score of 100/100',
+            link:'https://cs.vt.edu',
+            content:[
+                '• Completed Bomb Lab assignment in CS 2505 course [C / Assembly] that required careful observation and navigation of Assembly code in order\
+                to successfully diffuse bomb through the completion of 6 phases.',
+                '• Utilized objdump to extract executable contents into Assembly code, written to a text file for analysis. Navigated through text file of\
+                Assembly objdump code to figure out process by which to solve each required phase.',
+                '• Utilized necessary commands to track program execution and memory location contents to discover solutions.',
+                '• Was one of 28 students, out of 53, to successfully complete the required 6 phases. Completed with 0 bomb detonations and\
+                received a perfect score.',
+            ]
+
+        },
+        {
             name:'Apple Music Terminal Music Finder',
             technologies:['Python','Apple Music [Mac]'],
             description:'Complete',

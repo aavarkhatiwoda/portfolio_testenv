@@ -1,8 +1,11 @@
 @import '../../Components/Fonts'
 @import '../../Components/Colors'
 @import '../../Components/Constants'
+@import '../../Components/Breakpoints'
 
 .footer
   padding: 100px
+  @media screen and (min-width: $ss7min)
+    padding: 200px
   text-align: center
   background: rgb(34,54,81)

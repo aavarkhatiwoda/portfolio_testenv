@@ -47,8 +47,11 @@ export default function Interests() {
 }
 
 function ShowSkills() {
-    const s = ['Python', 'Java', 'C',  'C++', 'JavaScript', 'Assembly', 'React', 'JSX',
-    'Sass', 'HTML', 'CSS', 'Terminal', 'Linux', 'macOS', 'Virtual Servers'];
+    //const s = ['Python', 'Java', 'C',  'C++', 'JavaScript', 'Assembly', 'React', 'JSX',
+    //'Sass', 'HTML', 'CSS', 'Terminal', 'Linux', 'macOS', 'Virtual Servers'];
+    const s = ['Python','JavaScript','Java','C','Assembly','ReactJS','bash','gdb'
+    ,'JSX','Sass','Jenkins','OpenSearch [Suite]','Groovy / Jenkinsfile scripting',
+    'Docker','Terminal','Linux']
     return (
       <div className='skills_toplevel'>
         {s.map(i => (
